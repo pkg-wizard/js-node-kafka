@@ -1,6 +1,6 @@
 {
   "name": "js-node-kafka",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "NodeJS Kafka Provider",
   "homepage": "https://github.com/pkg-wizard/js-node-kafka",
   "main": "dist/index.js",

@@ -15,7 +15,7 @@
 ```js
 import KafkaClientProvider from 'kafka-provider';
 import { KafkaConfig } from 'kafka-provider/src/types/kafka-config.interface';
-import { Config as LoggerConfig } from 'commonjs-logger';
+import { Config as LoggerConfig } from 'js-node-logger';
 import {
   appName,
   kafkaBrokers,
