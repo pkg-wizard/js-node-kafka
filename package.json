@@ -1,0 +1,46 @@
+{
+  "name": "js-node-kafka",
+  "version": "1.0.4",
+  "description": "NodeJS Kafka Provider",
+  "homepage": "https://github.com/pkg-wizard/js-node-kafka",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkg-wizard/js-node-kafka.git"
+  },
+  "scripts": {
+    "test": "jest -c ./jest.config.js",
+    "build": "tsc",
+    "clean": "rm -r ./dist"
+  },
+  "bugs": {
+    "url": "https://github.com/pkg-wizard/js-node-kafka/issues"
+  },
+  "dependencies": {
+    "js-node-logger": "^1.0.0",
+    "kafkajs": "^2.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.2",
+    "prettier": "^3.5.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [
+    "kafka",
+    "consumer",
+    "topics",
+    "subscriber"
+  ],
+  "author": "pkg-wizard",
+  "license": "MIT"
+}
